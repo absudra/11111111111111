@@ -5,14 +5,14 @@ header-img: img/post-bg-desk.jpg
 email: 111@gmail.com
 description: "Every failure is leading towards success."
 keyword: "BY, BY Blog, 111的博客, 111"
-url: "http://absudra.github.io"          # your host, for absolute URL
+url: "http://111.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/absudra/absudra.github.io.git" # you code repository
+github_repo: "https://github.com/111/111.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-absudra-gentle.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about-111-gentle.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -64,9 +64,9 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 9743cf5914828a786b29   #生成的clientID
   clientSecret: 433d73929a0b77e96cbf588a20a5eafbfc98c1e1  #同上
-  repo: absudra.github.io    #仓库名称
-  owner: absudra    #github用户名
-  admin: absudra
+  repo: 111.github.io    #仓库名称
+  owner: 111    #github用户名
+  admin: 111
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 

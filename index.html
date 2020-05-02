@@ -5,6 +5,7 @@ description: "Thinking will not overcome fear but action will."
 <script data-ad-client="ca-pub-6368180628208582" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <div>123</div>
 {% for post in paginator.posts %}
+{% paginator %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">

@@ -134,7 +134,7 @@ self.addEventListener('fetch', event => {
     // If neither yields a response, return offline pages.
     event.respondWith(
       Promise.race([fetched.catch(_ => cached), cached])
-        .then(resp => resp || fetched)
+        .then(resp => {resp} || fetched)
         .catch(_ => caches.match('offline.html'))
     );
 
